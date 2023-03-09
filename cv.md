@@ -3,7 +3,7 @@ Curriculum Vitae
 
 Personal Information:
 
-  Name: Oleh Poiasnik
+  Name: Oleh Poiasnik 
 
   Email: opoiasnik@gmail.com
 
