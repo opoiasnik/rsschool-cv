@@ -21,4 +21,19 @@ Hobbies and Interests:
   •	Reading books on programming languages
   •	Playing some “Brain games”
   •	Writing code
+Example of code:
+    function duplicateEncode(word) {
+      const letters = word.toLowerCase().split('');
+      let result = '';
+
+      for (let i = 0; i < letters.length; i++) {
+        const char = letters[i];
+        if (letters.indexOf(char) === letters.lastIndexOf(char)) {
+          result += '(';
+        } else {
+          result += ')';
+        }
+      }
+      return result;
+    }
 
